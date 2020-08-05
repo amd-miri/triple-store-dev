@@ -7,6 +7,11 @@ backend:
   password: "dba"
 
 data:
+  - name: "k4p-digital-thesaurus"
+    graph: "http://data.europa.eu/k4p/k4p-plus/k4p_digital_thesaurus"
+    url: "http://publications.europa.eu/resource/cellar/dddf7fbb-c77e-11ea-adf7-01aa75ed71a1.0001.01/DOC_1"
+    format: "rdf"
+
   - name: "corporate-body-classification"
     graph: "http://publications.europa.eu/resource/authority/corporate-body-classification"
     url: "http://publications.europa.eu/resource/distribution/corporate-body-classification/20180926-0/rdf/skos_core/corporate-body-classification-skos.rdf"
